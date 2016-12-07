@@ -4,7 +4,7 @@
 * [Pairix](#pairix)
 * [Older projects](#older-projects)
     * [EMSAR](#emsar)
-    * [C module for NGSCheckmate](#c-module-for-ngscheckmate)
+    * [Alignment-free module for NGSCheckmate](#alignment-free-module-for-ngscheckmate)
 * [Keywords](#keywords)
 
 ## 4DN DCIC pipelines
@@ -32,11 +32,12 @@
 * EMSAR uses [Maximum likelihood estimation](#maximum-likelihood-estimation) on joint [Poisson distribution](#poisson-distribution), whose expected values are represented by the sum of abundance parameters to estimate.
 * EMSAR reads alignment files in [BAM](#bam) or SAM format using [samtools C library](#samtools-c-library).
 
-### C module for NGSCheckmate
+### Alignment-free module for NGSCheckmate
 * https://github.com/parklab/ngscheckmate
-* NGSCheckmate is a tool for detecting sample swaps in genomic data in FASTQ, BAM and VCF formats.
-* The C module for NGSCheckmate detects sample swaps in [FASTQ](#fastq) files in an alignment-free mode.
-* The C module for NGSCheckmate creates and uses a [hash](#hash) table for k-mers spanning a selected set of [single nucleotide polymorphisms (SNPs)](#single-nucleotide-polymorphism) to quantify allelic fraction.
+* NGSCheckmate is a tool for detecting sample swaps among genomic data in FASTQ, BAM and VCF formats.
+* The Alignment-free module for NGSCheckmate detects sample swaps in [FASTQ](#fastq) files.
+* The Alignment-free module for NGSCheckmate creates and uses a [hash](#hash) table for k-mers spanning a selected set of [single nucleotide polymorphisms (SNPs)](#single-nucleotide-polymorphism) to quantify allelic fraction.
+* The Alignment-free module for NGSCheckmate is written in [C](#c)
 
 
 ## Keywords
