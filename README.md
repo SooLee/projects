@@ -3,8 +3,11 @@
 * [4DN DCIC Pipelines](#4dn-dcic-pipelines)
 * [Pairix](#pairix)
 * [Older projects](#older-projects)
+  * Software Tool Development
     * [EMSAR](#emsar)
     * [Alignment-free module for NGSCheckmate](#alignment-free-module-for-ngscheckmate)
+  * Data Analysis
+    * [Analysis of differential expression between isogenic ESC and iPSC](#analysis-of-differential-expression-between-isogenic-ESC-and-iPSC)
 * [Keywords](#keywords)
 
 ## 4DN DCIC pipelines
@@ -20,7 +23,7 @@
 * Pairix is an extension from [tabix](#tabix) for 2D indexing and querying.
 * Pairix works on text files compressed using [bgzip](#bgzip).
 * Pairix is written in [C](#c).
-* Pairix has a companion python module, pypairix, based on [Python C extension](#python-c-extension).
+* Pairix has a companion python module, pypairix, based on [Python C extension](#python-c-extension). (Carl)
 * Pairix can be used for querying specific genomic ranges for analyzing [Hi-C](#hi-c) data.
 
 ## Older projects
@@ -34,10 +37,15 @@
 
 ### Alignment-free module for NGSCheckmate
 * https://github.com/parklab/ngscheckmate
-* NGSCheckmate is a tool for detecting sample swaps among genomic data in FASTQ, BAM and VCF formats.
+* NGSCheckmate is a tool for detecting sample swaps among genomic data in FASTQ, BAM and VCF formats. (Alice, Sejoon)
 * The Alignment-free module for NGSCheckmate detects sample swaps in [FASTQ](#fastq) files.
 * The Alignment-free module for NGSCheckmate creates and uses a [hash](#hash) table for k-mers spanning a selected set of [single nucleotide polymorphisms (SNPs)](#single-nucleotide-polymorphism) to quantify allelic fraction.
 * The Alignment-free module for NGSCheckmate is written in [C](#c)
+
+### Analysis of differential expression between isogenic ESC and iPSC
+* http://www.nature.com/nbt/journal/v33/n11/abs/nbt.3388.html
+* The main biological question of the project is whether there is a functionally significant difference in gene expression between genetically matched [embryonic stem cells (ESCs)](#embryonic-stem-cells) and [induced pluripotent stem cells (iPSCs)](#induced-pluripotent-stem-cells). The main method of choice of the project is to profile gene expression using [RNA-seq](#rna-seq) data and detect differentially expressed genes between isogenic ESCs and iPSCs. (Jiho)
+* The data analysis was performed using [EMSAR](#emsar) for quantifying gene expression.
 
 
 ## Keywords
@@ -62,3 +70,5 @@
 * Samtools C library
 * FASTQ
 * Single nucleotide polymorphism
+* Embryonic stem cells
+* Induced pluripotent stem cells
