@@ -2,7 +2,6 @@
 
 * [4DN DCIC Pipeline](#4dn-dcic-pipeline)
 * [Pairix](#pairix)
-
 * [Keywords](#keywords)
 
 ## 4dn dcic pipeline
