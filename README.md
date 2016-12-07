@@ -18,20 +18,19 @@
 * Pairix works on text files compressed using [bgzip](#bgzip)
 * Pairix is written in [C](#c)
 * Pairix has a companion python module, pypairix, based on [Python C extension](#python-c-extension)
-* Pairix can be used for querying specific genomic ranges for analyzing [Hi-C](#hi-c) data or for examining [structural variations](#structural-variation) in other DNA sequencing data.
+* Pairix can be used for querying specific genomic ranges for analyzing [Hi-C](#hi-c) data
 
 ## Keywords
-### 4DNucleome
-### Amazon Web Service
-### Docker
-### Common Workflow Language
-### Lambda
-### APIGateway
-### Chalice
-### Seven Bridges
-### tabix
-### C
-### Python C extension
-### bgzip
-### Hi-C
-### Structural variation
+* 4DNucleome
+* Amazon Web Service
+* Docker
+* Common Workflow Language
+* Lambda
+* APIGateway
+* Chalice
+* Seven Bridges
+* tabix
+* C
+* Python C extension
+* bgzip
+* Hi-C
