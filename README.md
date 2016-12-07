@@ -1,6 +1,17 @@
 # projects
 
+* [4DN DCIC Pipeline](#4dn-dcic-pipeline)
 * [Pairix](#pairix)
+
+* [Keywords](#keywords)
+
+## 4dn dcic pipeline
+* The pipelines are for automatic and unified data processing for [4DNucleome](#4dnucleome).
+* The pipelines are set up on [Amazon Web Service](#amazon-web-service).
+* The components are encapsulated in [docker](#docker) containers.
+* The pipelines are described using [Common Workflow Language](#common-workflow-language).
+* The pipelines are triggered and managed using [Lambda](#lambda) and [APIGateway](#apigateway), which are combined using [Chalice](#chalice).
+* The pipelines are run on the [Seven Bridges](#seven-bridges) platform.
 
 ## Pairix
 
@@ -10,6 +21,15 @@
 * Pairix has a companion python module, pypairix, based on [Python C extension](#python-c-extension)
 * Pairix can be used for querying specific genomic ranges for analyzing [Hi-C](#hi-c) data or for examining [structural variations](#structural-variation) in other DNA sequencing data.
 
+## Keywords
+### 4DNucleome
+### Amazon Web Service
+### Docker
+### Common Workflow Language
+### Lambda
+### APIGateway
+### Chalice
+### Seven Bridges
 ### tabix
 ### C
 ### Python C extension
