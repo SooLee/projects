@@ -1,10 +1,10 @@
 # projects
 
-* [4DN DCIC Pipeline](#4dn-dcic-pipeline)
+* [4DN DCIC Pipelines](#4dn-dcic-pipelines)
 * [Pairix](#pairix)
 * [Keywords](#keywords)
 
-## 4dn dcic pipeline
+## 4DN DCIC pipelines
 * The pipelines are for automatic and unified data processing for [4DNucleome](#4dnucleome).
 * The pipelines are set up on [Amazon Web Service](#amazon-web-service).
 * The components are encapsulated in [docker](#docker) containers.
