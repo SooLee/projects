@@ -33,7 +33,7 @@
 * https://github.com/parklab/emsar
 * EMSAR is a tool for quantifying transcript isoform abundance from [RNA-seq](#rna-seq) data.
 * EMSAR is written in [C](#c).
-* EMSAR uses a modified [suffix array](#suffix-array) data structure for creating an index of shared k-mers or paired k-mers among transcripts (k=read length)
+* EMSAR uses a modified [suffix array](#suffix-array) data structure for creating an index of shared k-mers or paired k-mers among transcripts (k=read length) that is stored in a 2D array of [linked lists](#linked-list) for fast and memory-bound access.
 * EMSAR uses [Maximum likelihood estimation](#maximum-likelihood-estimation) on joint [Poisson distribution](#poisson-distribution), whose expected values are represented by the sum of abundance parameters to estimate.
 * EMSAR reads alignment files in [BAM](#bam) or SAM format using [samtools C library](#samtools-c-library).
 
@@ -68,6 +68,7 @@
 * k-way merge sort
 * RNA-seq
 * Suffix array
+* linked list
 * Maximum likelihood estimation
 * Poisson distribution
 * BAM
