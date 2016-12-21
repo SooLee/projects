@@ -24,7 +24,9 @@
 * Pairix works on text files compressed using [bgzip](#bgzip).
 * Pairix is written in [C](#c).
 * Pairix has a companion python module, pypairix, based on [Python C extension](#python-c-extension). (Carl)
+* Pairix has a companion [R package](#r-package), Rpairix.
 * Pairix can be used for querying specific genomic ranges for analyzing [Hi-C](#hi-c) data.
+* Pairs_merger merges sorted pairs files into one, based on the pairix index, using [k-way merge sort](#k-way-merge-sort).
 
 ## Older projects
 ### EMSAR
@@ -60,8 +62,10 @@
 * tabix
 * C
 * Python C extension
+* R package
 * bgzip
 * Hi-C
+* k-way merge sort
 * RNA-seq
 * Suffix array
 * Maximum likelihood estimation
