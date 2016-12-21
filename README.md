@@ -59,7 +59,7 @@
 * APIGateway
 * Chalice
 * Seven Bridges
-* tabix
+* Tabix
 * C
 * Python C extension
 * R package
