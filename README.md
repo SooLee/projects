@@ -68,7 +68,7 @@
 * k-way merge sort
 * RNA-seq
 * Suffix array
-* linked list
+* Linked list
 * Maximum likelihood estimation
 * Poisson distribution
 * BAM
